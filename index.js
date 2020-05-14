@@ -1,8 +1,6 @@
-let newHeader = document.querySelector("h1#victory");
-newHeader.nodeName='H1';
+document.getElementById('main').remove();
 
-let newHeader = document.querySelector("h1#victory");
-newHeader.id='victory';
+const newHeader = document.createElement('h1')
+newHeader.id = 'victory'
+newHeader.innerHTML = "YOUR-NAME is the champion"
 
-let newHeader = document.querySelector("h1#victory");
-newHeader.innerHTML="is the champion";
